@@ -1,0 +1,56 @@
+main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 85%;
+}
+nav {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #000000;
+  color: white;
+}
+
+.logo_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 6rem;
+}
+
+.logo img {
+  height: 100%;
+  padding-left: 2.4rem;
+}
+
+.date_time {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+  padding-right: 2.4rem;
+}
+
+.user_profile_image {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_profile_image img {
+  height: 60%;
+}
